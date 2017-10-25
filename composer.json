@@ -1,0 +1,26 @@
+{
+    "name": "sebastiaandejonge/pm",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastiaan de Jonge",
+            "email": "mail@sebastiaandejonge.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "robmorgan/phinx": "dev-master",
+        "respect/rest": "^0.6.0@dev",
+        "ext-pdo": "^7.0"
+    },
+    "config": {
+        "vendor-dir": "Libraries",
+        "bin-dir": "Binaries"
+    },
+    "autoload": {
+        "psr-4": {
+            "SebastiaanDeJonge\\Pm\\": "Classes/"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+/.idea
+/Binaries/*
+/Configuration/*.yaml
+/Libraries/*
+
+# Exclusions
+^/Configuration/Development.dist.yaml
+^/Binaries/.gitignore
